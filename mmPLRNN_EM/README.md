@@ -25,7 +25,7 @@ Package contains fMRI data based on [Koppe et. al](https://pubmed.ncbi.nlm.nih.g
 
 ### 2. Data
 
-all trained networks used to produce results as displayed in publication are provided in a sparse format for evaluation in VAE Code Package
+all trained networks used to produce results as displayed in publication are provided in a sparse format for evaluation in PLRNN_VI Code Package
 
 
 #### 2.1 Benchmark
@@ -38,7 +38,7 @@ all trained networks used to produce results as displayed in publication are pro
 
 
 * B. trained networks* 
-- mat files with parameters of trained network (MM - mmPLRNN, Gauss - PLRNN, Init - IntialValues) are NOT provided in this package for SIZE reasons and according results can be found in sparse format in VAE package
+- mat files with parameters of trained network (MM - mmPLRNN, Gauss - PLRNN, Init - IntialValues) are NOT provided in this package for SIZE reasons and according results can be found in sparse format in PLRNN_VI package
 
 [Koppe et. al](https://pubmed.ncbi.nlm.nih.gov/25019681/)
 - '/Data/Training/NBKO_PLRNN_dataset_RestReference.mat' used for network comparison and in order to produce Fig.3(A,B) and Fig.4
@@ -92,7 +92,7 @@ all trained networks used to produce results as displayed in publication are pro
 
 ### 5. Plot Routines
 
-- All plots and evaluations are produced using python, see VAE python package for this publication also contained in supplement [VAE package, Kramer et. al.]()
+- All plots and evaluations are produced using python, see PLRNN_VI python package for this publication also contained in supplement [VAE package, Kramer et. al.]()
 - Paths in VAE code have to be adjusted accordingly
 - *Paper Results for Plotting* the benchmarking reults are also provided in VAE Package
 - *Paper Results for Plotting* the results on the experimental data are also provided in VAE Package
