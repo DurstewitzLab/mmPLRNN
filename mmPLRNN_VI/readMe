@@ -8,12 +8,16 @@ This folder structure contains most of the code to reproduce the figures given i
 
 plotCumulativeHistograms.py will plot the cumulative histograms shown in Figures 2 C & D and Figure 5.
 plotNstepAhead.py plots Figure 3A.
-plotConfusionMatrices.py calculates a bunch of Confusion matrices for different experiments and generates the Plot 3C (left out Experiment)
-plotFig4CandCalculateSomething.py calculates some F-scores to statistically varify our claims about Fig 4C aswell as plotting figure 4C.
+plotConfusionMatrices.py calculates the confusion matrix and generates the Plot 3C (left out Experiment)
+plotFig4CandCalculateSomething.py calculates F-scores to statistically varify our claims about Fig 4C aswell as plotting figure 4C.
 calcLyapunovExponents.py calculates the Lyapunov exponents of Fig 4A.
 plotChaoticAttractors.py plots the chaotic attractors of three dimension represented with 2D plots -> 3plots each. These plots were used in Fig 4A and Fig 7.
 plotOutOfPhase.py plots Figure 4B.
 plotNoiseLevelComparison.py plots Figure 4C.
+
+/code/seqmvae/:
+
+contains the Variational Inference algorithm for reconstructing non-linear dynamical systems for multi-modal data
 
 /data/:
 
