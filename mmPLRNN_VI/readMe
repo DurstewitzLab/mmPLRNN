@@ -1,0 +1,29 @@
+This folder structure contains most of the code to reproduce the figures given in the paper.
+
+/code/ contains all the neccesary code scripts
+/data/ contains all the data that has been used (after training our PLRNNS on fmri Data or synthetic Lorenz Data)
+/plots/ is a folder that will contain all the plots generated from the scripts in /code/
+
+/code/:
+
+plotCumulativeHistograms.py will plot the cumulative histograms shown in Figures 2 C & D and Figure 5.
+plotNstepAhead.py plots Figure 3A.
+plotConfusionMatrices.py calculates a bunch of Confusion matrices for different experiments and generates the Plot 3C (left out Experiment)
+plotFig4CandCalculateSomething.py calculates some F-scores to statistically varify our claims about Fig 4C aswell as plotting figure 4C.
+calcLyapunovExponents.py calculates the Lyapunov exponents of Fig 4A.
+plotChaoticAttractors.py plots the chaotic attractors of three dimension represented with 2D plots -> 3plots each. These plots were used in Fig 4A and Fig 7.
+plotOutOfPhase.py plots Figure 4B.
+plotNoiseLevelComparison.py plots Figure 4C.
+
+/data/:
+
+KLs_noisyLorenz_EM contains the KL values calculated for the noisy Lorenz experiment for the EM-algorithm (Fig 2C)
+KLs_noisyLorenz_VI - same as above but for variational Inference (Fig 2D)
+KLs_missDim_EM contains the KL values calculated for the missing Dimension experiment for the EM-algorithm (Fig 5)
+KLs_missDim_VI - same as above but for variational Inference
+
+/FullTS/ /FullTS_restReference/ contains the results from the EM inference task of the PLRNN on real fMRI data. This data is used to define the PLRNNs and calculate all the experimental results except for the crossvalidation Task (Fig 3C)
+/CrossValidation/ contains the results from the EM infernce task of the PLRNN on real fMRI data. This data was used for Fig 3C.
+
+
+
